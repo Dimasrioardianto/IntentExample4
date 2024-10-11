@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
                 intent = Intent(Intent.ACTION_DIAL, uri)
             }
         }
+
         startActivity(intent)
         return true
     }
